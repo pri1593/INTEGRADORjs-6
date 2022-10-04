@@ -815,9 +815,9 @@ footer ul {
     color: red;
 }
 
-.title-footer span {
+/* .title-footer span {
     
-}
+} */
 .direccion{
     display: flex;
     flex-direction: row;
