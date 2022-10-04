@@ -1024,6 +1024,10 @@ footer ul {
         display: block;
         margin: 0 auto;
     }
+    #frase_hero{
+        color: #000;
+    }
+    
 }
 
 @media(max-width:600px){
@@ -1091,6 +1095,9 @@ footer ul {
     .init{
         display: none;
     }
+    #frase_hero{
+        color: #000;
+    }
 }
 
 @media(max-width:470px){
@@ -1117,8 +1124,8 @@ footer ul {
         text-align: center;
         width: 100%;
         background-color: #fff;
-        *margin: 0 auto;
-        margin-bottom: 60px;
+        margin: 0 auto;
+        *margin-bottom: 10px;
 
     }
     #cartImg{
@@ -1142,17 +1149,22 @@ footer ul {
         margin: 0 auto;
     }
     .container_frase_hero h1 {
-        width: 300px;
-        font-size: 2.5rem;
-        margin: 0 auto;
+        width: 100%;
+        font-size: 2.8rem;
+        *margin: 0 auto;
+        margin-bottom: 50px;
     }
     
     .container_frase_hero h2 {
+        color: #000;
         font-size: 2.5rem;
     }
     .section_title{
         width: 100%;
         margin-top: 50px;
+    }
+    #frase_hero{
+        color: #000;
     }
 
     
