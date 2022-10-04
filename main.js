@@ -35,13 +35,13 @@ function showScroll(){
     const scrollTop = document.documentElement.scrollTop;
     for(let i = 0; i < animado.length; i ++){
         const hightAnimado = animado[i].offsetTop;
-        if( hightAnimado - 200 < scrollTop){
+        if( hightAnimado - 300 < scrollTop){
             animado[i].style.opacity = 1;
             animado[i].classList.add('showTop')
         }
     }
 };
-// window.addEventListener('scroll', showScroll)
+window.addEventListener('scroll', showScroll)
 
 const renderProductRecomendation = product => {
     const{id, name, price, description, cardImg} = product;
